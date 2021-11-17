@@ -53,10 +53,15 @@ header {
 }
 nav a {
     margin: 0 10px;
+    padding: 10px 0;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Press Start 2P', cursive;
     color: black;
+}
+nav a:hover, nav a.active {
+    border-bottom: 1px solid black;
+    text-shadow: 1px 1px red;
 }
 h1 {
     text-transform: uppercase;

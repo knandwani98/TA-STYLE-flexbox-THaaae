@@ -1,0 +1,152 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+/*Custom*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padding {
+    padding: 60px 0;
+}
+
+.header, .footer {
+    background-color: rgb(51 51 51);
+    padding: 10px 0 ;
+}
+.header a, .footer a {
+    color: rgb(214 214 214);
+}
+
+.header a:hover, .footer a:hover {
+    color: white;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.menu a,.footer a {
+    padding: 0 10px;
+}
+
+.menu a span {
+    padding: 0 5px;
+    font-weight: 500;
+} 
+
+.menu a img, .menu a span {
+    vertical-align: middle;
+}
+
+.sidebar{
+    background-color: rgb(154 154 158);
+    align-self: stretch;
+    border-radius: 8px;
+    flex: 0 1 30%;
+    padding: 32px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-nav a {
+    padding: 10px 0;
+    color: rgb(88 88 91);
+    font-weight: 400;
+    border-radius: 6px;
+}
+.sidebar-nav a:hover,.sidebar-nav a.active {
+    border: 2px solid orangered;
+}
+.sidebar-nav a img, .sidebar-nav a span {
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.a1 {
+    background-color: rgb(214 214 214);
+    padding: 32px;
+    border-radius: 8px;
+    flex: 0 1 65%;
+}
+.a1 article img {
+    width: 100%;
+}
+.a1 h1 {
+    font-size: 32px;
+}
+.a1 h1, .a1 p {
+    padding: 5px 0;
+}
+.more-btn {
+    display: inline-block;
+    background-color: rgb(51 51 51);
+    color: rgb(154 154 158);
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.footer small {
+    color: white;
+}
+.footer a {
+    font-size: 20px;
+}
+.logout {
+    width: 100%;
+    border-radius: 6px;
+    padding: 16px;
+    border: none;
+    text-align: left;
+}
+.logout span{
+    padding: 0 20px;
+}
+.logout span, .logout img {
+    vertical-align: middle;
+}
